@@ -134,7 +134,7 @@ const Demanding = () => {
           <div class="form-row">
             <div>
               <label for="validationDefault03">Expected Date</label>
-              <input type="date" class="form-control" id="validationDefault03" placeholder="City" 
+              <input type="date" class="form-control" id="validationDefault03" placeholder="Expected Date" 
               onChange={(e) => {setDate(e.target.value)}} 
               min='2018-01-01' max='2018-03-31'
               required/>
